@@ -1,5 +1,4 @@
-import { Component, ViewChild, ElementRef } from "@angular/core";
-import "../../dist/epy-components";
+import { Component } from "@angular/core";
 
 @Component({
   selector: "app-root",
@@ -8,10 +7,4 @@ import "../../dist/epy-components";
 })
 export class AppComponent {
   title = "testComponents";
-
-  // @ViewChild("button") myTestComponent: ElementRef<HTMLEpyButtonElement>;
-
-  // async onAction() {
-  //   await this.myTestComponent.nativeElement.testComponentMethod();
-  // }
 }

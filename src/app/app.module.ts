@@ -5,9 +5,11 @@ import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
 
-import "./epy-button";
+import "../../dist/epy-components.js";
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DashboardComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

@@ -32,7 +32,10 @@
                 "output": "node_modules/@webcomponents/webcomponentsjs"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "src/styles.scss",
+              "node_modules/epy-scss/dist/css/epy.css"
+            ],
             "scripts": []
           },
           "configurations": {
